@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #373A3C;
+}
+.header .header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+.header .header_nav img {
+  margin-left: 163px;
+}
+.header .header_nav .nav__menu {
+  display: flex;
+  align-items: center;
+  margin-right: 163px;
+}
+.header .header_nav .nav__menu .menu__item {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  margin-right: 37px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.header .header_nav .nav__menu .menu__item_active {
+  color: #FFF;
+}
+.header .header_nav .nav__menu .menu__item_text__content::after {
+  content: "";
+  background-image: url("../img/icons/down.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 6px;
+  margin-left: 12px;
+}
+.header .header_nav .nav__menu .menu__item_search {
+  margin-left: 11px;
+  display: block;
+  color: black;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  border: none;
+}
+.header .header_nav .nav__menu .menu__item_acconut::before {
+  content: "";
+  background-image: url("../img/icons/user.svg");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.main .intro__main {
+  position: relative;
+  background: url(../img/Star-Wars-Battlefront-II-combat.png) no-repeat center center/cover;
+}
+.main .intro__main .intro__nav .nav__buttons {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .intro__main .intro__nav .nav__buttons img {
+  margin: 0 29px;
+}
+.main .intro__main .intro__nav .nav__info {
+  list-style: none;
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  bottom: 0;
+  margin-bottom: 43px;
+  justify-content: center;
+}
+.main .intro__main .intro__nav .nav__info li {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.main .intro__main .intro__info {
+  padding-top: 206px;
+  padding-bottom: 200px;
+  padding-left: 70%;
+  padding-right: 20%;
+}
+.main .intro__main .intro__info .info__title {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main .intro__main .intro__info .info__subtitle {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main .intro__main .intro__info .info__buttons {
+  display: flex;
+  margin-top: 136px;
+}
+.main .intro__main .intro__info .info__buttons .info__button {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 131.25% */
+  padding: 8px 27px;
+  text-wrap: nowrap;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+.main .intro__main .intro__info .info__buttons .info__button_active {
+  background: #8DD83D;
+  margin-right: 13px;
+}
+
+.second {
+  background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+.second .intro__second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+}
+.second .intro__second .title__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second .intro__second .title__block .intro__logo {
+  max-width: 64px;
+  max-height: 64px;
+}
+.second .intro__second .title__block .intro__title {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.second .intro__second .title__block .intro__subtitle {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.second .intro__second .intro__cards {
+  margin-top: 44px;
+  margin-bottom: 162px;
+}
+.second .intro__second .intro__cards ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.second .intro__second .intro__cards ul .intro__card {
+  margin: 0 32px;
+  border-radius: 4px;
+  border: 1px solid #8DD83D;
+  background: #FFF;
+}
+.second .intro__second .intro__cards ul .intro__card img {
+  width: 100%;
+}
+.second .intro__second .intro__cards ul .intro__card .card__text {
+  padding: 0 21px;
+  padding-bottom: 27px;
+}
+.second .intro__second .intro__cards ul .intro__card .card__text h3 {
+  color: #435766;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 16px;
+}
+.second .intro__second .intro__cards ul .intro__card .card__text p {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 131.25% */
+  border-radius: 4px;
+  background: #8DD83D;
+  padding: 20px 38px;
+  margin-top: 40px;
+}
+.second .intro__second .intro__cards ul .intro__card .card__text .card__title {
+  margin-top: 13px;
+}
+.second .intro__second .intro__cards ul .intro__card .card__text .card__title h1 {
+  color: #435766;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.third .intro__third {
+  position: relative;
+  background: url(../img/bg.png) no-repeat center center/cover;
+}
+.third .intro__third .intro__info {
+  padding-top: 114px;
+  padding-bottom: 145px;
+  margin-left: 163px;
+  margin-right: 163px;
+}
+.third .intro__third .intro__info .info__title {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.third .intro__third .intro__info .info__subtitle {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.third .intro__third .intro__info .info__buttons {
+  display: flex;
+  margin-top: 136px;
+}
+.third .intro__third .intro__info .info__buttons .info__button {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 131.25% */
+  padding: 20px 62px;
+  text-wrap: nowrap;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+.third .intro__third .intro__info .info__buttons .info__button_active {
+  background: #8DD83D;
+  margin-right: 13px;
+}
+
+.footer .intro__footer {
+  background-color: #373A3C;
+  padding-left: 164px;
+  padding-right: 164px;
+  padding-top: 58px;
+}
+.footer .intro__footer .footer__info {
+  display: flex;
+}
+.footer .intro__footer .footer__info .footer__list__block .footer__list__title {
+  color: #7DD42F;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.footer .intro__footer .footer__info .footer__list__block .footer__list {
+  list-style: none;
+  margin-right: 288px;
+}
+.footer .intro__footer .footer__info .footer__list__block .footer__list li {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 15px 0;
+}
+.footer .intro__footer .footer__info .footer__list__block .footer__social {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.footer .intro__footer .footer__info .footer__list__block .footer__social li {
+  margin: 0 10px;
+}
+.footer .intro__footer .footer__info .footer__list__block .footer__list__title_social {
+  text-align: center;
+}
+.footer .intro__footer hr {
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+  border: none;
+  margin-top: 50px;
+}
+.footer .intro__footer .footer__subinfo {
+  display: flex;
+  padding: 0 20px;
+  margin-top: 20px;
+  padding-bottom: 38px;
+  justify-content: space-between;
+}
+.footer .intro__footer .footer__subinfo p {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=index.css.map */
